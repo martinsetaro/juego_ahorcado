@@ -10,11 +10,19 @@ html
 {
     font-family: 'Poppins', sans-serif;
 }
+
+.title_game 
+{
+    width: 30rem;
+    height: 4rem;
+    margin: 0 auto;
+}
 .dibujo 
 {
-    width: 40rem;
-    height: 15rem;
-    background-color:grey;
+    width: 25rem;
+    height: 25rem;
+    background-image: url('./img/back.png');
+    background-size: cover;
     margin: 1rem auto;
 }
 .container 
@@ -24,7 +32,7 @@ html
     margin: 2rem auto;
     display: flex;
     overflow: hidden;
-    background-color: #b23e35;
+    
 }
 .box_letter 
 {
@@ -48,14 +56,15 @@ html
 {
     margin-top: -4rem;
     transition: all 1s ease-in;
-    background-color: blue;
 }
 .entradas 
 {
     width: 30rem;
     height: 8rem;
-    margin: 0 auto;
-    background-color: lightblue;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+    
 }
 .entradas input 
 {
@@ -72,6 +81,7 @@ html
 	border:1px solid #ffffff;
 	display:inline-block;
 	cursor:pointer;
+    height: 4rem;
 	color:#ffffff;
 	font-family:Arial;
 	font-size:15px;
@@ -92,13 +102,89 @@ html
     height: 7rem;
     margin: 0 auto;
     display: flex;
-    background-color: #eb675e;
+    border:.1rem solid #1e1e1e;
 }
 .incorrectas h2
 {
     font-size: 3rem;
     text-align: center;
 }
+.informacion,
+.arriesgar
+{
+    width: 50rem;
+    height: 10rem;
+    margin: 3rem auto;
 
+    
+}
+.ingresar_preguntar,
+.arriesgar
+
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -6rem;
+}
+.ingresar_preguntar input,
+.arriesgar input
+{
+    width: 30rem;
+    height: 3rem;
+    font-size: 2.5rem;
+    
+}
+.ingresar_preguntar label
+{
+    margin-top: -1.5rem;
+}
+
+.ingresar_preguntar .empezar,
+.ingresar_preguntar .reiniciar,
+.respuestaSecreta
+{
+    box-shadow:inset 0px 39px 0px -24px #e67a73;
+	background-color:#e4685d;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+    height: 3rem;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+
+.ingresar_preguntar
+{
+    width: 50rem;
+    height:8rem;
+    margin: 1rem auto;
+}
+
+.footer 
+{
+    width: 100%;
+    height: 6rem;
+    background-color: #1e1e1e;
+    text-align: center;
+    padding-top: 1rem;
+}
+.footer h3 
+{
+    color: #ffffff;
+    font-size: 2rem;
+    
+}
+
+.footer span 
+{
+    text-transform: uppercase;
+    color: orange;
+}
         
 

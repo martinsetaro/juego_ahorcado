@@ -10,16 +10,50 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="dibujo"></div>
-    <div class="container"></div>
+    <div class="title_game"><h1>Juego del Ahorcado</h1>
+    </div>
+    <div class="ingresar_preguntar">
+        <label>Ingresa tu pregunta secreta?
+<input class="ingresarPregunta" type="password"/></label>
+<button class="empezar">Comenzar juego</button>
+<button class="reiniciar">Reinicia tu juego</button>
+    </div>
+    <div class="dibujo">
+
+    </div>
+    <div class="container">
+
+    </div>
     <div class="entradas">
-        <input class="entrada_texto" type="text"  minlength="1" maxlength="1" />
+        <label>Ingresa tu letra
+        <input class="entrada_texto" type="text"  minlength="1" maxlength="1" /></label>
         <button class="btn">Enviar</button>
 
     </div>
+
     <div class="incorrectas">
 
     </div>
+    <div class="informacion">
+        <p>Recuerda que solo tienes 6 oportunidades antes de decifrar la palabra escondida</p>
+        <p>Antes que se complete el ahorcado y siguiendo tu instinto puedes arriesgar la palabra secreta</p>
+
+    </div>
+    
+
+    <div class="arriesgar">
+        <label>Sabes la pregunta secreta?
+<input class="ingresaRespuesta" type="text"/></label>
+<button class="respuestaSecreta">Respuesta</button>
+
+    </div>
+    <footer class="footer">
+     <h3>Realizado por <span>martin setaro</span> para <span>Alura ONE challenges</span> &COPY;2022</h3>
+    </footer>
+
+
+
+
      <script src="app.js"></script>
      <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
